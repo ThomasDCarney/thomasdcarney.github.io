@@ -1,0 +1,25 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 1fr 200px;
+    grid-template-areas:
+        "head"
+        "content"
+        "footer";
+    min-height: 100vh;
+}
+
+header {
+    grid-area: head;
+    background-color: green;
+}
+
+#contentWrapper {
+    grid-area: content;
+    background-color: blue;
+}
+
+footer {
+    grid-area: footer;
+    background-color: red;
+}
