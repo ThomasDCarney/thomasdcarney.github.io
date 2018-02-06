@@ -12,6 +12,8 @@ body {
 header {
     grid-area: head;
     background-color: green;
+    display: flex;
+    align-items: flex-start;
 }
 
 #contentWrapper {
